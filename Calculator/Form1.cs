@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Calculator
@@ -26,13 +19,13 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
-                var b = Convert.ToDouble(textBox2.Text);
+                double a = Convert.ToDouble(textBox1.Text);
+                double b = Convert.ToDouble(textBox2.Text);
                 textBox3.Text = (a + b).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -40,13 +33,13 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
-                var b = Convert.ToDouble(textBox2.Text);
+                double a = Convert.ToDouble(textBox1.Text);
+                double b = Convert.ToDouble(textBox2.Text);
                 textBox3.Text = (a - b).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -54,13 +47,13 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
-                var b = Convert.ToDouble(textBox2.Text);
+                double a = Convert.ToDouble(textBox1.Text);
+                double b = Convert.ToDouble(textBox2.Text);
                 textBox3.Text = (a * b).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -68,13 +61,13 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
-                var b = Convert.ToDouble(textBox2.Text);
+                double a = Convert.ToDouble(textBox1.Text);
+                double b = Convert.ToDouble(textBox2.Text);
                 textBox3.Text = (a / b).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -82,12 +75,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Sqrt(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -95,12 +88,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Log(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -108,12 +101,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Log10(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -121,12 +114,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Sin(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -134,12 +127,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Cos(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -147,12 +140,12 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
+                double a = Convert.ToDouble(textBox1.Text);
                 textBox3.Text = Math.Tan(a).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 
@@ -160,14 +153,14 @@ namespace Calculator
         {
             try
             {
-                var a = Convert.ToDouble(textBox1.Text);
-                var sin = Math.Sin(a);
-                var cos = Math.Cos(a);
+                double a = Convert.ToDouble(textBox1.Text);
+                double sin = Math.Sin(a);
+                double cos = Math.Cos(a);
                 textBox3.Text = (sin / cos).ToString();
             }
-            catch
+            catch(Exception)
             {
-                textBox3.Text = "Не число";
+                textBox3.Text = "неверные данные";
             }
         }
 

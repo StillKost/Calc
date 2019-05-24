@@ -65,6 +65,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(22, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(81, 13);
@@ -74,6 +75,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(22, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
@@ -116,7 +118,7 @@
             // button4
             // 
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(189, 206);
+            this.button4.Location = new System.Drawing.Point(273, 143);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(62, 39);
             this.button4.TabIndex = 10;
@@ -127,7 +129,7 @@
             // button5
             // 
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(105, 206);
+            this.button5.Location = new System.Drawing.Point(359, 143);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(62, 39);
             this.button5.TabIndex = 9;
@@ -138,7 +140,7 @@
             // button6
             // 
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.Location = new System.Drawing.Point(25, 206);
+            this.button6.Location = new System.Drawing.Point(451, 143);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(62, 39);
             this.button6.TabIndex = 8;
@@ -149,7 +151,7 @@
             // button7
             // 
             this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button7.Location = new System.Drawing.Point(189, 268);
+            this.button7.Location = new System.Drawing.Point(189, 202);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(62, 39);
             this.button7.TabIndex = 13;
@@ -160,7 +162,7 @@
             // button8
             // 
             this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button8.Location = new System.Drawing.Point(105, 268);
+            this.button8.Location = new System.Drawing.Point(105, 202);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(62, 39);
             this.button8.TabIndex = 12;
@@ -171,7 +173,7 @@
             // button9
             // 
             this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button9.Location = new System.Drawing.Point(25, 268);
+            this.button9.Location = new System.Drawing.Point(25, 202);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(62, 39);
             this.button9.TabIndex = 11;
@@ -182,7 +184,7 @@
             // button10
             // 
             this.button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button10.Location = new System.Drawing.Point(105, 329);
+            this.button10.Location = new System.Drawing.Point(273, 202);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(62, 39);
             this.button10.TabIndex = 16;
@@ -192,20 +194,20 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.Red;
+            this.button11.BackColor = System.Drawing.Color.Black;
             this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(189, 329);
+            this.button11.Location = new System.Drawing.Point(451, 202);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(62, 39);
             this.button11.TabIndex = 15;
-            this.button11.Text = "Clear";
+            this.button11.Text = "Очистить";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.Button11_Click);
             // 
             // button12
             // 
             this.button12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button12.Location = new System.Drawing.Point(25, 329);
+            this.button12.Location = new System.Drawing.Point(359, 202);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(62, 39);
             this.button12.TabIndex = 14;
@@ -216,7 +218,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(25, 104);
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(315, 55);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 17;
@@ -224,7 +227,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(138, 104);
+            this.textBox3.Location = new System.Drawing.Point(400, 52);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(113, 20);
             this.textBox3.TabIndex = 18;
@@ -233,8 +236,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(289, 450);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(542, 275);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button10);
