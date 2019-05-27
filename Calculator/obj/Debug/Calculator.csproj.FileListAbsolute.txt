@@ -8,3 +8,13 @@ C:\Users\user\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.Cor
 C:\Users\user\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\user\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\user\source\repos\Calculator\Calculator\obj\Debug\Calculator.Calculator.resources
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.Calculator.resources
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.exe
+C:\Users\Пользователь\Desktop\Calc\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Пользователь\Desktop\Calc\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Пользователь\Desktop\Calc\Calculator\bin\Debug\Calculator.exe
+C:\Users\Пользователь\Desktop\Calc\Calculator\bin\Debug\Calculator.pdb

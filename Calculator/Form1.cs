@@ -25,7 +25,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -39,7 +39,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -53,7 +53,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -67,7 +67,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -80,7 +80,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -93,7 +93,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -106,7 +106,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -119,7 +119,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -132,7 +132,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -145,7 +145,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
@@ -160,7 +160,7 @@ namespace Calculator
             }
             catch(Exception)
             {
-                textBox3.Text = "неверные данные";
+                textBox3.Text = "СМЭРТЬ!";
             }
         }
 
